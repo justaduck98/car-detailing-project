@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/landing_page_background.jpg") no-repeat center center/cover;
+}
+
+header {
+    background-color: cyan;
+}
