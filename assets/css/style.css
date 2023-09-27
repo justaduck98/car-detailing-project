@@ -3,24 +3,76 @@
     padding: 0;
 }
 
+/* general styles */
+
+body {
+    background: url("../images/landing_page_background.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+
 header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     background-color: rgba(0, 255, 255, 0.6);
-    padding: 10px;
+    padding: 10px 0;
     height: 40px;
     width: 100%;
 }
 
-#logo {
-    font-size: 170%;
-    color: #FA5;
+/* styles for links in header, both logo and navbar links */
+
+header a {
     text-decoration: none;
+    color: inherit
+}
+
+/* Adding background elements for logo */
+
+#logo {
+    color: #FA5;
     background-color: #209CEE;
     border-radius: 50%;
 }
 
-body {
-    background: url("../images/landing_page_background.jpg") no-repeat center center/cover;
-    height: 100vh;
+/* Navbar styles for menu with dropdown toggle */
+
+#navmenu {
+    list-style-type: none;
 }
 
-main {}
+#navmenu li {
+    color: #3a3a3a;
+    padding: 15px 0;
+}
+
+nav {
+    position: absolute;
+    background-color: #FA5;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #FA5;
+    display: none;
+    top: 100%;
+}
+
+/*Navmenu dropdown toggle */
+
+#navmenu-toggle:checked~nav {
+    display: block;
+}
+
+#navmenu-toggle {
+    display: none;
+}
+
+.navmenu-toggle-label {
+    font-size: 2rem;
+    padding-right: 5%;
+}
