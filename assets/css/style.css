@@ -12,6 +12,11 @@ body {
     flex-direction: column;
 }
 
+main {
+    flex: 1 0 auto;
+    margin-top: 55px;
+}
+
 /* header */
 
 header {
@@ -19,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background-color: rgba(0, 255, 255, 0.6);
+    background-color: rgba(51, 245, 2, 0.637);
     padding: 10px 0;
     height: 40px;
     width: 100%;
@@ -75,4 +80,11 @@ nav {
 .navmenu-toggle-label {
     font-size: 2rem;
     padding-right: 5%;
+}
+
+/* styles for main content */
+
+main div>section {
+    background-color: rgba(32, 156, 238, 0.6);
+    border: 2px solid white;
 }
