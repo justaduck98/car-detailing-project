@@ -14,7 +14,7 @@ body {
 
 main {
     flex: 1 0 auto;
-    margin-top: 65px;
+    margin-top: 60px;
 }
 
 /* header */
@@ -90,6 +90,7 @@ main div>section {
     border: 2px solid white;
 }
 
+/*  */
 #introduction {
     background: url("../images/landing_page_background.jpg") no-repeat 10% 10%/cover;
     color: white;
