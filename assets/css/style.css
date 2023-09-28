@@ -6,7 +6,7 @@
 /* general styles */
 
 body {
-    background: url("../images/landing_page_background.jpg") no-repeat center center/cover;
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@ body {
 
 main {
     flex: 1 0 auto;
-    margin-top: 55px;
+    margin-top: 65px;
 }
 
 /* header */
@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background-color: rgba(51, 245, 2, 0.637);
+    background-color: rgba(32, 156, 238, 0.6);
     padding: 10px 0;
     height: 40px;
     width: 100%;
@@ -41,7 +41,8 @@ header a {
 
 #logo {
     color: #FA5;
-    background-color: #209CEE;
+    background-color: #3a3a3a;
+    padding: 5px;
     border-radius: 50%;
 }
 
@@ -87,4 +88,24 @@ nav {
 main div>section {
     background-color: rgba(32, 156, 238, 0.6);
     border: 2px solid white;
+}
+
+#introduction {
+    background: url("../images/landing_page_background.jpg") no-repeat 10% 10%/cover;
+    color: white;
+    min-height: 200px;
+}
+
+#intro-content {
+    background-color: rgba(32, 156, 238, 0.6);
+    width: 80%;
+    padding: 10px;
+    margin: 5%;
+    border-radius: 15%;
+}
+
+.price {
+    background-color: orange;
+    border-radius: 15%;
+    max-height: 25px;
 }
