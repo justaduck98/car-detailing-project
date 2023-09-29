@@ -90,7 +90,7 @@ main div>section {
 
 /* Introduction Section */
 #introduction {
-    background: url("../images/landing_page_background.jpg") no-repeat 10% 10%/cover;
+    background: url("../images/introduction_content_background.jpg") no-repeat 10% 10%/cover;
     color: white;
     min-height: 200px;
 }
@@ -200,8 +200,6 @@ footer table {
         width: fit-content;
     }
 
-
-
     #navmenu {
         display: flex;
 
@@ -304,8 +302,13 @@ footer table {
         height: 85px;
     }
 
+    #navmenu>li {
+        margin-top: 10px;
+    }
+
+    /*introduction section*/
     #introduction {
-        background: url("../images/landing_page_background.jpg") no-repeat 10% center/cover;
+        background: url("../images/introduction_content_background.jpg") no-repeat 10% center/cover;
         margin-top: 30px;
         height: 450px;
     }
@@ -314,5 +317,47 @@ footer table {
         font-size: 20px;
         margin-top: 140px;
         border-radius: 0;
+    }
+
+    /* services section */
+    #services h2 {
+        margin-top: 20px;
+        background-color: #FA5;
+    }
+
+    #services-content {
+        background: url("../images/services_content_background.jpg") no-repeat center center/cover;
+        height: 300px;
+    }
+
+    .care-package {
+        max-width: max-content;
+        height: 200px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price {
+        border-radius: 0;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        width: auto;
+    }
+
+    /* working-video section */
+    #video-header {
+        margin-top: 40px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    /* Footer */
+    #business-hours {
+        margin-left: 20px;
+    }
+
+    #social-media {
+        font-size: 30px;
     }
 }
