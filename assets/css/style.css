@@ -86,11 +86,10 @@ nav {
 /* styles for main content */
 
 main div>section {
-    background-color: rgba(32, 156, 238, 0.6);
     border: 2px solid white;
 }
 
-/*  */
+/* Introduction section */
 #introduction {
     background: url("../images/landing_page_background.jpg") no-repeat 10% 10%/cover;
     color: white;
@@ -100,9 +99,37 @@ main div>section {
 #intro-content {
     background-color: rgba(32, 156, 238, 0.6);
     width: 80%;
-    padding: 10px;
+    padding: 25px 20px;
     margin: 5%;
-    border-radius: 15%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Service section */
+#services {
+    display: flex;
+}
+
+#services-content>h2 {
+    text-align: center;
+    background-color: white;
+}
+
+.care-package {
+    width: 80%;
+    margin: 10px;
+    border-radius: 10%;
+    padding: 10px;
+    background-color: #FA5;
+    border: 2px solid #3a3a3a;
+}
+
+.care-package>h2 {
+    text-align: center;
+}
+
+.care-package ul {
+    list-style-type: none;
 }
 
 .price {
