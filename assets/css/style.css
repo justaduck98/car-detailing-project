@@ -306,6 +306,10 @@ footer table {
         margin-top: 10px;
     }
 
+    #navmenu>li>a:hover {
+        color: white;
+    }
+
     /*introduction section*/
     #introduction {
         background: url("../images/introduction_content_background.jpg") no-repeat 10% center/cover;
@@ -359,5 +363,63 @@ footer table {
 
     #social-media {
         font-size: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    /* Header */
+    #navmenu>li {
+        margin-left: 40px;
+
+    }
+
+    .current {
+        border-left: solid 5px white;
+    }
+
+    /* Main content, adjusting sections to better utilize the space */
+    main>div {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 5px;
+    }
+
+    main>div>section {
+        flex: 1;
+    }
+
+    /* services */
+    #services {
+        margin-top: 10px;
+    }
+
+    #services h2 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+
+    #services-content {
+        height: 395px;
+    }
+
+    .care-package{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .price {
+        margin-top: 0;
+        align-self: flex-end, center;
+    }
+
+    /* video section */
+    #working-video {
+        flex-basis: 100%;
+    }
+
+    /* Footer */
+    #social-media>a:hover {
+        color: white;
     }
 }
