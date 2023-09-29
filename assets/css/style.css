@@ -248,5 +248,18 @@ footer table {
         align-items: center;
     }
 
+    #video-header {
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        width: 95%;
+        margin: auto;
+    }
+
+    #working-video div p {
+        margin: 10px;
+    }
+
     /* Footer */
 }
