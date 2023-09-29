@@ -154,3 +154,31 @@ main div>section {
 #working-video iframe {
     margin: 5px;
 }
+
+#working-video p {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(32, 156, 238, 0.6);
+}
+
+footer table {
+    padding-left: 10px;
+}
+
+#social-media {
+    display: flex;
+    padding: 20px 5px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 280px;
+}
+
+#social-media a {
+    font-size: 170%;
+    color: #3a3a3a;
+}
