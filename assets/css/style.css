@@ -262,4 +262,31 @@ footer table {
     }
 
     /* Footer */
+
+    #footer-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #business-hours {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    #business-hour table,
+    th,
+    td {
+        font-size: 26px;
+    }
+
+    #business-location {
+        margin-top: 10px;
+        flex-grow: 2;
+    }
+
+    #social-media {
+        max-width: 90%;
+        padding-left: 5%;
+    }
 }
