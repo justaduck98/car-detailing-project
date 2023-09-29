@@ -23,10 +23,8 @@ header {
     position: fixed;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
     background-color: rgba(32, 156, 238, 0.6);
-    padding: 10px 0;
-    height: 40px;
+    height: 60px;
     width: 100%;
 }
 
@@ -66,6 +64,7 @@ nav {
     box-shadow: 0 2px 2px #FA5;
     display: none;
     top: 100%;
+    height: auto;
 }
 
 /*Navmenu dropdown toggle */
@@ -89,7 +88,7 @@ main div>section {
     border: 2px solid white;
 }
 
-/* Introduction section */
+/* Introduction Section */
 #introduction {
     background: url("../images/landing_page_background.jpg") no-repeat 10% 10%/cover;
     color: white;
@@ -105,7 +104,7 @@ main div>section {
     text-align: center;
 }
 
-/* Service section */
+/* Service Section */
 #services {
     display: flex;
 }
@@ -145,6 +144,7 @@ main div>section {
     box-shadow: solid 2px #3a3a3a;
 }
 
+/* Video Section */
 #working-video h2 {
     background-color: rgba(32, 156, 238, 0.6);
     border-radius: 50%;
@@ -160,6 +160,7 @@ main div>section {
     padding-bottom: 5px;
 }
 
+/* Styles for footer */
 footer {
     display: flex;
     flex-direction: column;
@@ -181,4 +182,51 @@ footer table {
 #social-media a {
     font-size: 170%;
     color: #3a3a3a;
+}
+
+/* 768px and above(tablets etc) */
+@media screen and (min-width:768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        top: 0;
+        left: auto;
+        height: 55px;
+        padding-top: 5px;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+
+
+    #navmenu {
+        display: flex;
+
+    }
+
+    #navmenu>li {
+        padding-left: 1rem;
+
+    }
+
+    .current {
+        border-left: solid 1px white;
+    }
+
+    #navmenu ul {
+        border: solid 1px #3a3a3a;
+    }
+
+    .navmenu-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 260%;
+    }
+
+    /* Main content */
+    /* Footer */
 }
