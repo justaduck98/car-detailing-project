@@ -116,6 +116,8 @@ main div>section {
 }
 
 .care-package {
+    display: flex;
+    flex-direction: row;
     width: 80%;
     margin: 10px;
     border-radius: 10%;
@@ -133,7 +135,12 @@ main div>section {
 }
 
 .price {
-    background-color: orange;
-    border-radius: 15%;
-    max-height: 25px;
+    background-color: black;
+    color: orange;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 35px;
+    margin-top: 50px;
+    box-shadow: solid 2px #3a3a3a;
 }
