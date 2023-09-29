@@ -290,3 +290,29 @@ footer table {
         padding-left: 5%;
     }
 }
+
+/* styles for laptop(1024 and above) */
+@media screen and (min-width:1024px) {
+
+    /* header */
+    header {
+        font-size: 26px;
+        height: 90px;
+    }
+
+    nav {
+        height: 85px;
+    }
+
+    #introduction {
+        background: url("../images/landing_page_background.jpg") no-repeat 10% center/cover;
+        margin-top: 30px;
+        height: 450px;
+    }
+
+    #intro-content {
+        font-size: 20px;
+        margin-top: 140px;
+        border-radius: 0;
+    }
+}
