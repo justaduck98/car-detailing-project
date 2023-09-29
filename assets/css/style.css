@@ -105,18 +105,19 @@ main div>section {
 }
 
 /* Service Section */
-#services {
-    display: flex;
-}
 
-#services-content>h2 {
+#services>h2 {
     text-align: center;
     background-color: white;
 }
 
+#services-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .care-package {
     display: flex;
-    flex-direction: row;
     width: 80%;
     margin: 10px;
     border-radius: 10%;
@@ -227,6 +228,25 @@ footer table {
         font-size: 260%;
     }
 
-    /* Main content */
+    /* services */
+
+    #services h2 {
+        margin-bottom: 20px;
+    }
+
+    #services-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .care-package {
+        max-width: 200px;
+    }
+
+    .price {
+        align-items: center;
+    }
+
     /* Footer */
 }
