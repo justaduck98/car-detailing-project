@@ -365,7 +365,7 @@ footer table {
         font-size: 30px;
     }
 }
-
+/* For screen sizes above 1200px, laptops, desktops, TVs etc */
 @media screen and (min-width:1200px) {
 
     /* Header */
