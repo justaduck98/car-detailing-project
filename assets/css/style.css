@@ -138,11 +138,11 @@ main div>section {
     background-color: black;
     color: orange;
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    padding: 10px;
     line-height: 35px;
     margin-top: 50px;
     box-shadow: solid 2px #3a3a3a;
+    text-decoration: none;
 }
 
 /* Video Section */
@@ -338,15 +338,15 @@ footer table {
         max-width: max-content;
         height: 200px;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
     }
 
     .price {
-        border-radius: 0;
+        border-radius: 50%;
         font-size: 20px;
         text-align: center;
-        padding: 10px;
-        width: auto;
+        margin-top: 60px;
     }
 
     /* working-video section */
@@ -365,6 +365,7 @@ footer table {
         font-size: 30px;
     }
 }
+
 /* For screen sizes above 1200px, laptops, desktops, TVs etc */
 @media screen and (min-width:1200px) {
 
@@ -404,10 +405,11 @@ footer table {
         height: 395px;
     }
 
-    .care-package{
+    .care-package {
         flex-direction: column;
         justify-content: space-around;
     }
+
     .price {
         margin-top: 0;
         align-self: flex-end, center;
