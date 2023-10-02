@@ -112,6 +112,25 @@ main div>section {
     align-items: center;
 }
 
+/* Contact intro section */
+#contact-intro {
+    background: url("../images/contact_landing_background.jpg") no-repeat center center/cover;
+    color: #FA5;
+    /* Makes image long enough to not give a busy feeling while still showing there is more info below */
+    min-height: 85vh;
+}
+
+#contact-content {
+    background-color: rgba(32, 156, 238, 0.7);
+    width: 80vw;
+    max-width: 400px;
+    padding: 10px 10px;
+    margin-top: 40vh;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
 /* Service Section */
 
 #services>h2 {
@@ -131,7 +150,7 @@ main div>section {
     border-radius: 10%;
     padding: 10px;
     background-color: #FA5;
-    border: 2px solid #3a3a3a;
+    border: solid 2px #3a3a3a;
     justify-content: space-around;
     align-items: center;
 }
@@ -151,7 +170,6 @@ main div>section {
     padding: 10px;
     line-height: 35px;
     margin-top: 50px;
-    box-shadow: solid 2px #3a3a3a;
     text-decoration: none;
 }
 
@@ -161,6 +179,7 @@ main div>section {
     border-radius: 50%;
     padding: 30px;
 }
+
 iframe {
     width: 95%;
     margin: 10px;
@@ -480,7 +499,7 @@ footer {
 
     .price {
         margin-top: 0;
-        align-self: flex-end, center;
+        align-self: center;
     }
 
     /* video section */
