@@ -193,13 +193,14 @@ iframe {
 }
 
 /* Contact section */
-#contact {
+#contact-alternatives {
     background-color: #3a3a3a;
     color: #fa5;
 }
 
-#contact>h2 {
+#contact-alternatives>h2 {
     text-align: center;
+
 }
 
 #contact-container {
@@ -229,6 +230,7 @@ iframe {
     padding: 10px;
     background-color: #3a3a3a;
     color: white;
+    max-width: 400px;
 }
 
 #contact-form h2 {
@@ -254,7 +256,8 @@ iframe {
     padding: 5px;
     border-radius: 10px;
 }
-.contact-button:hover{
+
+.contact-button:hover {
     background-color: #FA5;
 }
 
@@ -359,6 +362,12 @@ footer {
         font-size: 20px;
     }
 
+    /* contact-intro */
+    #contact-content {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
     /* services */
 
     #services h2 {
@@ -392,6 +401,32 @@ footer {
 
     #working-video div p {
         margin: 10px;
+    }
+
+    /* Contact section */
+    #contact-alternative {
+        flex-direction: row;
+    }
+
+    #contact-container {
+        flex-direction: row;
+    }
+
+    /* Contact form */
+    #contact-section {
+        display: flex;
+        width: 100%;
+        background-color: #3a3a3a;
+        justify-content: center;
+    }
+
+    .text-input {
+        max-width: 300px;
+        margin: 10px 30px;
+    }
+
+    .contact-button {
+        margin-left: 40%;
     }
 
     /* Footer */
@@ -470,6 +505,8 @@ footer {
         font-size: 30px;
     }
 
+    /* Contact intro section */
+
     /* services section */
     #services h2 {
         margin-top: 20px;
@@ -507,6 +544,24 @@ footer {
 
     #working-video iframe {
         height: 500px;
+    }
+
+    /* Contact alternatives section */
+    #contact-alternatives>h2 {
+        font-size: 30px;
+    }
+
+    #contact-alternatives {
+        font-size: 20px;
+    }
+
+    /* Contact form */
+    #contact-form {
+        font-size: 20px;
+    }
+
+    .contact-button {
+        margin-top: 10px;
     }
 
     /* Footer */
