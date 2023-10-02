@@ -161,9 +161,11 @@ main div>section {
     border-radius: 50%;
     padding: 30px;
 }
-
-#working-video iframe {
-    margin: 5px;
+iframe {
+    width: 95%;
+    margin: 10px;
+    height: 200px;
+    border: 5px;
 }
 
 #working-video p {
@@ -246,6 +248,7 @@ footer {
 
     }
 
+    /* Displays to user which page they are currently on */
     .current {
         border-left: solid 2px white;
     }
@@ -292,6 +295,7 @@ footer {
         align-items: center;
     }
 
+    /* Gives user feedback when hovering the price buttons */
     .price:hover {
         color: white;
     }
@@ -299,11 +303,6 @@ footer {
     #working-video h2 {
         margin: 20px;
         border-radius: 20px;
-    }
-
-    iframe {
-        width: 95%;
-        margin: auto;
     }
 
     #working-video div p {
@@ -347,6 +346,7 @@ footer {
         font-size: 140%;
     }
 
+    /* Gives user feedback when hovering social media links */
     #social-media>a:hover {
         color: white;
     }
@@ -396,6 +396,7 @@ footer {
         height: 300px;
     }
 
+    /* Services "cards" */
     .care-package {
         max-width: max-content;
         height: 200px;
@@ -404,6 +405,7 @@ footer {
         align-items: center;
     }
 
+    /* Styles for the price button with a link to contact page */
     .price {
         border-radius: 50%;
         font-size: 20px;
