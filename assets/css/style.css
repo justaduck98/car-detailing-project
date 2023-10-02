@@ -226,6 +226,10 @@ footer table {
         font-size: 260%;
     }
 
+    i {
+        margin-right: 10px;
+    }
+
     /* services */
 
     #services h2 {
