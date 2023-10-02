@@ -97,16 +97,19 @@ main div>section {
 #introduction {
     background: url("../images/introduction_content_background.jpg") no-repeat 10% 10%/cover;
     color: white;
-    min-height: 200px;
+    /* Makes image long enough to not give a busy feeling while still showing there is more info below */
+    min-height: 85vh;
 }
 
 #intro-content {
-    background-color: rgba(32, 156, 238, 0.8);
+    background-color: rgba(32, 156, 238, 0.9);
     width: 80vw;
-    margin: 10px;
+    max-width: 400px;
     padding: 30px 30px;
+    margin-top: 30vh;
     border-radius: 50%;
     text-align: center;
+    align-items: center;
 }
 
 /* Service Section */
@@ -175,8 +178,25 @@ footer {
     background-color: rgba(32, 156, 238, 0.6);
 }
 
-footer table {
-    padding-left: 10px;
+#footer-container>h3 {
+    text-align: center;
+}
+
+#business-hours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.business-hours-day {
+    font-size: 16px;
+    align-self: left;
+}
+
+.business-hours-time {
+    align-self: center;
 }
 
 #social-media {
