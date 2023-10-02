@@ -247,7 +247,7 @@ footer {
     }
 
     .current {
-        border-left: solid 1px white;
+        border-left: solid 2px white;
     }
 
     #navmenu ul {
@@ -338,12 +338,12 @@ footer {
 
     /* header */
     header {
-        font-size: 26px;
-        height: 90px;
+        font-size: 22px;
+        height: 75px;
     }
 
     nav {
-        height: 85px;
+        height: 70px;
     }
 
     #navmenu>li {
