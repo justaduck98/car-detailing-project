@@ -266,7 +266,7 @@ footer {
     /* Introduction */
     #intro-content {
         margin: 20% auto;
-        border-radius: 10%;
+        border-radius: 20px;
         padding: 10px;
         font-size: 20px;
     }
@@ -292,8 +292,13 @@ footer {
         align-items: center;
     }
 
-    #video-header {
-        margin-bottom: 20px;
+    .price:hover {
+        color: white;
+    }
+
+    #working-video h2 {
+        margin: 20px;
+        border-radius: 20px;
     }
 
     iframe {
@@ -320,6 +325,15 @@ footer {
     #business-hours {
         display: flex;
         flex-grow: 1;
+        font-size: 160%;
+    }
+
+    .business-hours-day {
+        font-size: 20px;
+    }
+
+    .business-hours-time {
+        font-size: 20px;
     }
 
     #business-location {
@@ -330,6 +344,11 @@ footer {
     #social-media {
         max-width: 90%;
         padding-left: 5%;
+        font-size: 140%;
+    }
+
+    #social-media>a:hover {
+        color: white;
     }
 }
 
@@ -363,6 +382,7 @@ footer {
 
     #intro-content {
         margin: 20% auto;
+        font-size: 30px;
     }
 
     /* services section */
@@ -398,6 +418,10 @@ footer {
         text-align: center;
     }
 
+    #working-video iframe {
+        height: 500px;
+    }
+
     /* Footer */
     #business-hours {
         margin-left: 20px;
@@ -421,15 +445,13 @@ footer {
         border-left: solid 5px white;
     }
 
-    /* Main content, adjusting sections to better utilize the space */
-    main>div {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10px 5px;
+    /* Main content */
+    #introduction {
+        background: url("../images/introduction_content_background.jpg") no-repeat center center/cover;
     }
 
-    main>div>section {
-        flex: 1;
+    #intro-content {
+        font-size: 30px;
     }
 
     /* services */
@@ -450,6 +472,8 @@ footer {
     .care-package {
         flex-direction: column;
         justify-content: space-around;
+        margin-top: 50px;
+        font-size: 22px;
     }
 
     .price {
