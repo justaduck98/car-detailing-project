@@ -129,6 +129,8 @@ main div>section {
     padding: 10px;
     background-color: #FA5;
     border: 2px solid #3a3a3a;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .care-package>h2 {
