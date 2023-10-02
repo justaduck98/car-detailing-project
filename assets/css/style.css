@@ -192,6 +192,72 @@ iframe {
     padding-bottom: 5px;
 }
 
+/* Contact section */
+#contact {
+    background-color: #3a3a3a;
+    color: #fa5;
+}
+
+#contact>h2 {
+    text-align: center;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border: solid #3a3a3a 2px;
+    background-color: #3a3a3a;
+    color: #fa5;
+}
+
+#physical-location p {
+    color: white;
+}
+
+#contact-details a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Contact form */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    border: solid #3a3a3a 2px;
+    padding: 10px;
+    background-color: #3a3a3a;
+    color: white;
+}
+
+#contact-form h2 {
+    color: #fa5;
+}
+
+.text-input {
+    margin: 5px;
+    background: transparent;
+    padding: 5px;
+    border: 2px solid rgb(32,
+            156,
+            238);
+    border-radius: 5px;
+    color: white;
+}
+
+.contact-button {
+    width: 80px;
+    background-color: rgb(32,
+            156,
+            238);
+    padding: 5px;
+    border-radius: 10px;
+}
+.contact-button:hover{
+    background-color: #FA5;
+}
+
 /* Styles for footer */
 footer {
     display: flex;

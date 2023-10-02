@@ -85,33 +85,88 @@
         <section id="contact">
           <h2>Our contact details</h2>
           <hr />
-          <div id="physical-location">
-            <h3>Our location address:</h3>
-            <p>Bilbyggarevägen 2, 393 56 Kalmar </p>
-          </div>
-          <div id="contact-details">
-            <h3>Reach us via phone on:</h3>
-            <p>+46200-221133</p>
-            <h3>Reach us via e-mail on:</h3>
-            <p>washyourcar_business@gmail.com</p>
+          <div id="contact-container">
+            <div id="physical-location">
+              <h3>Our location address:</h3>
+              <p>Bilbyggarevägen 2, 393 56 Kalmar</p>
+            </div>
+            <div id="contact-details">
+              <h3>Reach us via phone on:</h3>
+              <a href="tel:+46200221133" aria-label="Link to call us"
+                >+46200-221133</a
+              >
+              <h3>Reach us via e-mail on:</h3>
+              <a
+                href="mailto:washyourcar_business@gmail.com"
+                aria-label="Link to our email address"
+                >washyourcar_business@gmail.com</a
+              >
+            </div>
           </div>
         </section>
 
         <!-- Contact form goes here! -->
         <section>
-            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2>Got a specific request? Fill out this form and we will call you!</h2>
-                <label for="first_name">First Name:</label>
-                <input type="text" name="first_name" class="text-input" id="first_name" required>
-                <label for="last_name">Last Name:</label>
-                <input type="text" name="last_name" class="text-input" id="last_name" required>
-                <label for="email">E-mail:</label>
-                <input type="email" name="email_address" class="text-input" id="first_name" required>
-                <label for="phone_number">Phone number:</label>
-                <input type="number" name="phone_number" class="text-input" id="phone_number" required>
-                <label for="extra_info">Give us a short description of your request:</label>
-                <input type="text-area" name="extra_info" class="text-input" id="extra_info">
-            </form>
+          <form
+            id="contact-form"
+            method="POST"
+            action="https://formdump.codeinstitute.net"
+          >
+            <h2>
+              Got a specific request? Fill out this form and we will call you!
+            </h2>
+            <label for="first_name">First Name:</label>
+            <input
+              type="text"
+              name="first_name"
+              class="text-input"
+              id="first_name"
+              required
+            />
+            <label for="last_name">Last Name:</label>
+            <input
+              type="text"
+              name="last_name"
+              class="text-input"
+              id="last_name"
+              required
+            />
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              name="email_address"
+              class="text-input"
+              id="first_name"
+              required
+            />
+            <label for="phone_number">Phone number:</label>
+            <input
+              type="number"
+              name="phone_number"
+              class="text-input"
+              id="phone_number"
+              required
+            />
+            <label for="extra_info"
+              >Give us a short description of your request:</label
+            >
+            <textarea
+              rows="6"
+              cols="30"
+              name="extra_info"
+              class="text-input"
+              id="extra_info"
+            ></textarea>
+            <div id="contact-terms">
+              <input type="checkbox" id="contact-checkbox" required />
+              <label for="contact-checkbox"
+                >I agree that WashYourCar may use this information to contact
+                me</label
+              >
+            </div>
+
+            <button type="submit" class="contact-button" required>Send</button>
+          </form>
         </section>
       </div>
     </main>
