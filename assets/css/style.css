@@ -141,7 +141,7 @@ main div>section {
     display: flex;
     justify-content: center;
     flex-grow: 1;
-    margin: 10px auto;
+    margin: 10px;
 }
 
 .grey-background {
@@ -152,13 +152,12 @@ main div>section {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    margin: 10px auto;
     justify-content: center;
 }
 
 #previous-content h2 {
     background-color: #FA5;
-
+    margin: 10px;
 }
 
 #previous-work-section {
@@ -242,6 +241,12 @@ iframe {
 #working-video p {
     text-align: center;
     padding-bottom: 5px;
+}
+
+#credits {
+    background-color: #FA5;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 /* Contact section */
@@ -429,7 +434,16 @@ footer {
         font-size: 20px;
     }
 
-    /* previous-work-gallery styles */
+    /* previous work intro */
+    #previous-content h2 {
+        font-size: 36px;
+    }
+
+    #previous-content p {
+        font-size: 26px;
+    }
+
+    /* previous-work-gallery */
 
     #previous-work-gallery {
         flex-direction: row;
@@ -576,7 +590,7 @@ footer {
     /*introduction section*/
     #introduction {
         background: url("../images/introduction_content_background.jpg") no-repeat 10% center/cover;
-        margin-top: 30px;
+        margin-top: 15px;
         height: 450px;
     }
 
@@ -587,6 +601,11 @@ footer {
 
     /* Contact intro section */
     #contact-intro {
+        margin-top: 15px;
+    }
+
+    /* Previous work container alignment */
+    #previous-work-container {
         margin-top: 15px;
     }
 
