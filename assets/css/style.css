@@ -364,10 +364,6 @@ footer {
 
     /* Introduction */
 
-    #contact-intro {
-        margin-top: 10px;
-    }
-
     #intro-content {
         margin: 20% auto;
         border-radius: 20px;
@@ -520,6 +516,9 @@ footer {
     }
 
     /* Contact intro section */
+    #contact-intro {
+        margin-top: 15px;
+    }
 
     /* services section */
     #services h2 {
