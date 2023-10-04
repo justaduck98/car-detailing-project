@@ -223,6 +223,10 @@ iframe {
 }
 
 /* Contact form */
+#contact-section {
+    background-color: #3a3a3a;
+}
+
 #contact-form {
     display: flex;
     flex-direction: column;
