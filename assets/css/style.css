@@ -131,6 +131,24 @@ main div>section {
     align-items: center;
 }
 
+/* Previous work */
+
+#previous-introduction {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#previous-work-container {
+    background-color: #3a3a3a;
+    height: 
+}
+
+#previous-content h2 {
+    background-color: #FA5;
+
+}
+
 /* Service Section */
 
 #services>h2 {
@@ -376,6 +394,7 @@ footer {
         margin-left: 30px;
         font-size: 20px;
     }
+
 
     /* services */
 
