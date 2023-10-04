@@ -226,7 +226,9 @@ iframe {
 #contact-form {
     display: flex;
     flex-direction: column;
-    border: solid #3a3a3a 2px;
+    border: solid #FA5 2px;
+    margin: 10px;
+    border-radius: 10px;
     padding: 10px;
     background-color: #3a3a3a;
     color: white;
@@ -428,6 +430,7 @@ footer {
     .contact-button {
         margin-left: 40%;
     }
+
 
     /* Footer */
 
