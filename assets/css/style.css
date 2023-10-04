@@ -134,20 +134,54 @@ main div>section {
 /* Previous work */
 
 #previous-introduction {
+    background-color: #FA5;
+    padding: 10px;
+    border: solid #3a3a3a 2px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     flex-grow: 1;
+    margin: 10px auto;
+}
+
+.grey-background {
+    background-color: #3a3a3a;
 }
 
 #previous-work-container {
-    background-color: #3a3a3a;
-    height: 
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 10px auto;
+    justify-content: center;
 }
 
 #previous-content h2 {
     background-color: #FA5;
 
 }
+
+#previous-work-section {
+    border: solid #3a3a3a 2px;
+}
+
+#previous-work-gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#previous-work-gallery img {
+    width: 90%;
+    margin: 10px;
+    border: solid #fa5 2px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+
 
 /* Service Section */
 
@@ -395,6 +429,23 @@ footer {
         font-size: 20px;
     }
 
+    /* previous-work-gallery styles */
+
+    #previous-work-gallery {
+        flex-direction: row;
+    }
+
+    #previous-work-gallery img {
+        width: 45%;
+    }
+
+    .small-picture {
+        flex-grow: 1;
+    }
+
+    .big-picture {
+        flex-grow: 2;
+    }
 
     /* services */
 
