@@ -357,6 +357,11 @@ footer {
     }
 
     /* Introduction */
+
+    #contact-intro {
+        margin-top: 15px;
+    }
+
     #intro-content {
         margin: 20% auto;
         border-radius: 20px;
