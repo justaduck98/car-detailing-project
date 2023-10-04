@@ -134,14 +134,21 @@ main div>section {
 /* Previous work */
 
 #previous-introduction {
+    background: url("../images/previous_work_content_background.jpg") no-repeat center center/cover;
+    border: solid #3a3a3a 2px;
+    min-height: 85vh;
+    margin: 10px;
+}
+
+#previous-content {
     background-color: #FA5;
+    width: 80vw;
+    max-width: 400px;
+    margin-top: 30vh;
+    text-align: center;
     padding: 10px;
     border: solid #3a3a3a 2px;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    margin: 10px;
 }
 
 .grey-background {
@@ -667,6 +674,10 @@ footer {
     }
 
     /* Footer */
+    footer h3 {
+        text-align: center;
+    }
+
     #business-hours {
         margin-left: 20px;
     }
