@@ -1,6 +1,6 @@
 # Wash Your Car
 
-![Wash Your Car mockup images](assets/readme-files/washyourcar_mockup.png)
+![Wash Your Car mockup images](assets/readme_files/washyourcar_mockup.png)
 
 Wash Your Car is a made up car detailing company located in Kalmar Sweden. Wash Your Car has different service packages for detailing cars, all varying in included service and all the info needed to contact or visit them. 
 
@@ -133,7 +133,7 @@ The font used in the site is Kanit, with Sans Serif as the fallback font in case
     - This displays an image of a car being polished with a text card on top clarifying what content can be found on the page.
   
 * **Contact Details**
-![Contact details image](assets/readme-files/contact_details.jpg)
+![Contact details image](assets/_files/contact_details.jpg)
 
     - The form allows the customer to find address to physical location, clickable phone number to call clickable email address to email as well as a special request form for other issues or if customers would prefer the company to call them up.
 
@@ -222,15 +222,15 @@ The font used in the site is Kanit, with Sans Serif as the fallback font in case
 
     - **Landing Page**
 
-    ![Lighthouse report for landing page image](assets/readme-files/lighthouse_landing.png)
+    ![Lighthouse report for landing page image](assets/readme_files/lighthouse_landing.png)
 
     - **Previous Work Page**
 
-    ![Lighthouse report for previous work page image](assets/readme-files/lighthouse_previous_work.png)
+    ![Lighthouse report for previous work page image](assets/readme_files/lighthouse_previous_work.png)
 
     - **Contact Us Page**
 
-    ![Lighthouse report for contact us page image](assets/readme-files/lighthouse_contact_us.png)
+    ![Lighthouse report for contact us page image](assets/readme_files/lighthouse_contact_us.png)
 
 ### Tools Testing
 
