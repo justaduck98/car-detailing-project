@@ -1,10 +1,8 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 # Wash Your Car
 
-![Pura Vida Spa mockup images](assets/readme-files/mockup-image.png)
+![Wash Your Car mockup images](assets/readme-files/washyourcar_mockup.png)
 
-Wash Your Car is a mock-up car detailing company located in Kalmar Sweden. Wash Your Car has different service packages for detailing cars, all varying in included service and all the info needed to contact or visit them. 
+Wash Your Car is a made up car detailing company located in Kalmar Sweden. Wash Your Car has different service packages for detailing cars, all varying in included service and all the info needed to contact or visit them. 
 
 The purpose of this website is to give an online prescence for WashYourCar and to provide information to the customers about their prices, services and contact information. This website targets an audience of car enthusiasts in the market for detailing their car for photos, before a sale or as a way to showcase their passion for cars.
 
@@ -65,12 +63,12 @@ Visit the deployed website [here](https://justaduck98.github.io/washyourcar-comp
 * As a customer, I want to easily find the business' location.
 
 ### Color Scheme
-![Color scheme image](assets/readme-files/color-scheme.png)
+
 The colors used for this project are mainly blue(#209CEE), grey(#3a3a3a) and orange(#FA5). All the colours give a sense of trust, proffesionalism and excitement in that order. 
+
 ### Typography
 
-The font used in the site is kanit, with Sans Serif as the fallback font in case Kanit cannot be used for any reason. 
-
+The font used in the site is Kanit, with Sans Serif as the fallback font in case Kanit cannot be used for any reason. 
 
 ## Features
 
@@ -256,14 +254,8 @@ The font used in the site is kanit, with Sans Serif as the fallback font in case
         
         No appearance, responsiveness nor functionality issues.
 
-        - **Safari**
-        
-        No appearance, responsiveness nor functionality issues.
-
         - **Mozilla Firefox**
-        
-        There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
-        
+                
         No responsiveness nor functionality issues.
 
         - **Microsoft Edge**
@@ -272,29 +264,13 @@ The font used in the site is kanit, with Sans Serif as the fallback font in case
 
 * Device compatibility
 
-    - The website has been tested on multiple devices, including:
+    - The website has been tested on these devices:
 
-        - **MacBook Pro 15"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **Dell Latitude 5300**
+        - **Motorola G30**
 
         No appearance, responsiveness nor functionality issues.
 
-        - **iPad Pro 12.9"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPad Pro 10.5"**
-
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPhone XR**
-        
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPhone 7**
+        - **Windows 10 desktop**
 
         No appearance, responsiveness nor functionality issues.
 
@@ -329,16 +305,6 @@ The font used in the site is kanit, with Sans Serif as the fallback font in case
         - When filling out the contact form, the customer is required to complete all fields as well as checking the checkbox before submitting.
         
         - Clicking the plus and minus buttons changes the zoom of the map.
-
-
-## Finished Product
-
-Page | Desktop version | Mobile version
---- | --- | ---
-Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
-Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatments.png) | ![Mobile treatments page image](assets/readme-files/mobile-treatments.png)
-Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
-
 
 ## Deployment
 
@@ -383,7 +349,7 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
 ### Code
 
-* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
+* [Stack Overflow](https://stackoverflow.com/) was consulted on a few occasions to be able to better understand the code and how to implement it correctly.
 
 ## Acknowledgements
 
