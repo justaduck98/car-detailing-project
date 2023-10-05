@@ -194,10 +194,6 @@ main div>section {
     border-radius: 10px;
 }
 
-
-
-
-
 /* Service Section */
 
 #services>h2 {
@@ -346,8 +342,6 @@ footer {
     flex-direction: column;
     background-color: rgba(32, 156, 238, 0.6);
 }
-
-
 
 #business-hours {
     display: flex;
@@ -537,7 +531,6 @@ footer {
     .contact-button {
         margin-left: 40%;
     }
-
 
     /* Footer */
 
