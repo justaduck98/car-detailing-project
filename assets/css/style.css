@@ -51,6 +51,7 @@ header a {
     background-color: #3a3a3a;
     padding: 10px;
     border-radius: 50%;
+    font-size: 170%;
 }
 
 /* Navbar styles for menu with dropdown toggle */
@@ -61,7 +62,7 @@ header a {
 
 #navmenu li {
     color: #3a3a3a;
-    padding: 15px 0;
+    padding: 15px;
 }
 
 nav {
@@ -404,8 +405,8 @@ footer {
 
     }
 
-    #navmenu>li {
-        padding-left: 1rem;
+    #navmenu li {
+        padding-right: 30px;
 
     }
 
@@ -425,7 +426,7 @@ footer {
     }
 
     #logo {
-        font-size: 260%;
+        font-size: 210%;
         padding: 5px;
     }
 
